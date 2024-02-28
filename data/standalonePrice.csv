@@ -1,0 +1,4 @@
+key,sku,centAmount,currencyCode,type,fractionDigits,country,customerGroup,channel,validFrom,validUntil,tiers,discounted,custom
+P1,flower-sku-tulip-1,6550,USD,centPrecision,2,US,,,,,,,
+P2,flower-sku-tulip-1,7550,USD,centPrecision,2,US,,,,,,,
+P3,flower-sku-tulip-1,8550,USD,centPrecision,2,US,,,,,,,

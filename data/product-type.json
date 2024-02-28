@@ -1,0 +1,79 @@
+[
+  {
+    "name": "shirt",
+    "key": "shirt",
+    "description": "Shirt Details",
+    "attributes": [
+      {
+        "name": "color",
+        "label": {
+          "de": "color",
+          "it": "color",
+          "en": "color"
+        },
+        "isRequired": false,
+        "type": {
+          "name": "text"
+        },
+        "attributeConstraint": "None",
+        "isSearchable": true,
+        "inputHint": "SingleLine",
+        "displayGroup": "Other"
+      },
+      {
+        "name": "size",
+        "label": {
+          "en": "size",
+          "de": "size",
+          "it": "size"
+        },
+        "isRequired": false,
+        "type": {
+          "name": "text"
+        },
+        "attributeConstraint": "CombinationUnique",
+        "isSearchable": true,
+        "inputHint": "SingleLine",
+        "displayGroup": "Other"
+      },
+      {
+        "name": "fabric",
+        "label": {
+          "en": "fabric",
+          "de": "fabric",
+          "it": "fabric"
+        },
+        "isRequired": false,
+        "type": {
+          "name": "enum",
+          "values": [
+            {
+              "key": "cotton",
+              "label": "cotton"
+            },
+            {
+              "key": "ployster",
+              "label": "ployster"
+            },
+            {
+              "key": "denim",
+              "label": "denim"
+            },
+            {
+              "key": "silk",
+              "label": "silk"
+            },
+            {
+              "key": "wool",
+              "label": "wool"
+            }
+          ]
+        },
+        "attributeConstraint": "None",
+        "isSearchable": true,
+        "inputHint": "SingleLine",
+        "displayGroup": "Other"
+      }
+    ]
+  }
+]

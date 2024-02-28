@@ -1,0 +1,95 @@
+[
+  {
+    "key": "us-store",
+    "roles": ["InventorySupply", "ProductDistribution"],
+    "name": {
+      "en": "US Store",
+      "de": "US Store"
+    },
+    "custom": {
+      "type": {
+        "key": "physicalStore"
+      },
+      "fields": {
+        "openingTimes": {
+          "en": "Mo-Fr. 10:00AM - 8:00PM\nSa. 9:00AM - 6:00PM",
+          "de": "Mo-Fr. 10:00 - 20:00\nSa. 9:00 - 18:00"
+        },
+        "imageUrl": "https://commercetools-joyride.s3.amazonaws.com/channels/SUNRISE_sanfrancisco.jpg"
+      }
+    },
+    "address": {
+      "streetName": "Townsend Street",
+      "streetNumber": "650",
+      "postalCode": "CA 94103",
+      "city": "San Francisco",
+      "country": "US"
+    },
+    "geoLocation": {
+      "coordinates": [-122.402917, 37.770929],
+      "type": "Point"
+    }
+  },
+  {
+    "key": "de-store",
+    "roles": ["InventorySupply", "ProductDistribution"],
+    "name": {
+      "en": "Germany Store",
+      "de": "Germany Store"
+    },
+    "custom": {
+      "type": {
+        "key": "physicalStore"
+      },
+      "fields": {
+        "openingTimes": {
+          "en": "Mo-Fr. 10:00AM - 8:00PM\nSa. 9:00AM - 6:00PM",
+          "de": "Mo-Fr. 10:00 - 20:00\nSa. 9:00 - 18:00"
+        },
+        "imageUrl": "https://commercetools-joyride.s3.amazonaws.com/channels/SUNRISE_berlin.jpg"
+      }
+    },
+    "address": {
+      "streetName": "Unter den Linden",
+      "streetNumber": "21",
+      "postalCode": "10117",
+      "city": "Berlin",
+      "country": "DE"
+    },
+    "geoLocation": {
+      "coordinates": [13.3879598, 52.5174434],
+      "type": "Point"
+    }
+  },
+  {
+    "key": "in-store",
+    "roles": ["InventorySupply", "ProductDistribution"],
+    "name": {
+      "en": "India Store",
+      "de": "India Store"
+    },
+    "custom": {
+      "type": {
+        "key": "physicalStore"
+      },
+      "fields": {
+        "openingTimes": {
+          "en": "Mo-Fr. 10:00AM - 8:00PM\nSa. 9:00AM - 6:00PM",
+          "de": "Mo-Fr. 10:00 - 20:00\nSa. 9:00 - 18:00"
+        },
+        "imageUrl": "https://commercetools-joyride.s3.amazonaws.com/channels/SUNRISE_chicago.jpg"
+      }
+    },
+    "address": {
+      "streetName": "West Congress Parkway",
+      "streetNumber": "18-30",
+      "postalCode": "IL 60605",
+      "city": "Bangalore",
+      "country": "IN"
+    },
+    "geoLocation": {
+      "coordinates": [-87.628376, 41.875664],
+      "type": "Point"
+    }
+  }
+]

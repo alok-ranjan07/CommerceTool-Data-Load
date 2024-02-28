@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Others",
+    "description": "",
+    "locations": [{ "country": "IN" }, { "country": "DE" }]
+  },
+  {
+    "name": "United States",
+    "description": "",
+    "locations": [{ "country": "US" }]
+  }
+]

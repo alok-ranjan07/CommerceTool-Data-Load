@@ -1,0 +1,22 @@
+[
+  {
+    "key": "default",
+    "name": {
+      "en": "Default"
+    }
+  },
+  {
+    "key": "dach",
+    "name": {
+      "en": "DACH region"
+    },
+    "languages": ["de"]
+  },
+  {
+    "key": "in",
+    "name": {
+      "en": "INDIA"
+    },
+    "languages": ["en"]
+  }
+]

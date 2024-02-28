@@ -1,0 +1,5 @@
+{
+  "currencies": ["EUR", "USD", "INR"],
+  "countries": ["DE", "US", "IN"],
+  "languages": ["EN", "DE"]
+}
